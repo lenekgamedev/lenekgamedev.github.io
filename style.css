@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -33,11 +38,6 @@ body {
 
 }
 
-#options a {
-    text-decoration: none;
-    color: white;
-}
-
 .element {
     width: 20%;
     text-align: center;
@@ -53,7 +53,8 @@ body {
     clear: both;
     background-color: lightgray;
     width: 100%;
-    height: 700px;
+    min-height: 700px;
+    height: auto;
 }
 
 #footer {
@@ -68,7 +69,7 @@ body {
 /* For our games */
 
 #gamepreview1, #gamepreview2, #gamepreview3 {
-    height: 100%;
+    height: 700px;
     float: left;
     background-color: gray;
     background-repeat: no-repeat;
@@ -96,13 +97,55 @@ body {
     filter: contrast(120%);
 }
 
-#gamepreview1 h2, #gamepreview2 h2, #gamepreview3 h2 {
-    border: 2px dashed black;
-    background-color: rgba(255,255,255,0.3);
-}
-
-#gamepreview1:hover h2, #gamepreview2:hover h2, #gamepreview3:hover h2  {
+#gamepreview1 .gamepreviewtitle, #gamepreview2 .gamepreviewtitle, #gamepreview3 .gamepreviewtitle {
     border: 2px solid black;
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0.3);
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5%;
+    padding: 1%;
 }
 
+#gamepreview1:hover .gamepreviewtitle, #gamepreview2:hover .gamepreviewtitle, #gamepreview3:hover .gamepreviewtitle  {
+    border: 3px solid black;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.play {
+    position: relative;
+    top: 75%;
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.play:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+/* For let's plays */
+
+.video-line{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(87, 87, 87);
+}
+
+.video-block{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(116, 116, 116);
+}
+
+.video-block iframe {
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+}
