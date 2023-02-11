@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* All */
 * {
     font-family: "Ebrima", "Verdana", sans-serif;
@@ -349,3 +350,341 @@ a {
 #contact-tt:hover img, #contact-fb:hover img, #contact-ig:hover img, #contact-tkt:hover img, #contact-gr:hover img {
     outline: 4px solid white;
 }
+=======
+/* All */
+* {
+    font-family: "Ebrima", "Verdana", sans-serif;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+body {
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    line-height: 0px;
+    color: white;
+    text-align: center;
+}
+
+#banner img {
+    width: 100%;
+    height: 150px;
+}
+
+#options {
+    background-color: rgb(67, 42, 82);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    font-size: 23pt;
+
+}
+
+.element {
+    width: 25%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.element:hover{
+    font-weight: bold;
+    background-color: rgb(50, 32, 61);
+}
+
+#content {
+    clear: both;
+    background-color: lightgray;
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    overflow: hidden;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0.6%;
+    text-align: center;
+    background-color: rgb(67, 42, 82);
+    color: white;
+}
+
+#langbox {
+    width: 5%;
+    height: auto;
+    text-align: left;
+    min-width: 50px;
+}
+
+.langselect {
+    float: left;
+    width: 33%;
+}
+
+.langselect:hover {
+    font-weight: bold;
+}
+
+/* For main */
+
+.main-placeholder {
+    width: 100%;
+    height: 20px;
+}
+
+#main-header {
+    width: 1000px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: rgb(200,200,200);
+    outline: 5px solid black;
+}
+
+#header-logo {
+    float: left;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+#main-header-2 {
+    width: 880px;
+    height: 100%;
+    line-height: 150%;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+.main-bottom-element {
+    float: left;
+    width: 29%;
+    margin-left: 3%;
+    margin-right: auto;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: rgb(200,200,200);
+    outline: 3px solid black;
+    text-align: center;
+    font-size: 20pt;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.main-bottom-element-h {
+    width: 100%;
+    height: 15%;
+    line-height: 75px;
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+.main-bottom-element-t {
+    width: 92%;
+    height: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: normal;
+    white-space: inherit;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.main-bottom-element:hover .main-bottom-element-h {
+    font-weight: bolder;
+}
+
+#main-header:hover {
+    background-color: rgb(220,220,220);
+    outline: 7px solid black;
+}
+
+.main-bottom-element:hover {
+    background-color: rgb(220,220,220);
+    outline: 5px solid black;
+}
+
+.main-bottom-element:hover h1{
+    font-size: 250%;
+    letter-spacing: auto;
+}
+
+/* For our games */
+
+#gamepreview1, #gamepreview2, #gamepreview3 {
+    height: 700px;
+    float: left;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: x-large;
+}
+
+#gamepreview1 {
+    width: 33.3%;
+    background-image: url("games/bitcointycoon.png"); 
+}
+
+#gamepreview2 {
+    width: 33.4%;
+    background-image: url("games/esportsempire.png");
+}
+
+#gamepreview3 {
+    width: 33.3%;
+    background-image: url("games/developerinc.png");
+}
+
+#gamepreview1:hover, #gamepreview2:hover, #gamepreview3:hover  {
+    filter: contrast(120%);
+}
+
+#gamepreview1 .gamepreviewtitle, #gamepreview2 .gamepreviewtitle, #gamepreview3 .gamepreviewtitle {
+    outline: 2px solid black;
+    background-color: rgba(255,255,255,0.3);
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5%;
+    padding: 1%;
+}
+
+#gamepreview1:hover .gamepreviewtitle, #gamepreview2:hover .gamepreviewtitle, #gamepreview3:hover .gamepreviewtitle  {
+    outline: 3px solid black;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.play {
+    position: relative;
+    top: 75%;
+    color: white;
+    border: 2px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.play:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+/* For influencers */
+
+.video-line{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(87, 87, 87);
+}
+
+.video-block{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(116, 116, 116);
+}
+
+.video-block iframe {
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+}
+
+/* For contact */
+
+.contact-line {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(87, 87, 87);
+}
+
+.contact-block {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(116, 116, 116);
+    text-align: center;
+    color: black;
+}
+
+.contact-block:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.contact-block:hover .contact-header {
+    color:white;
+    font-style: italic;
+}
+
+.contact-block2 {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    color: black;
+}
+
+.contact-block2:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.contact-block2:hover .contact-header {
+    color:white;
+    font-style: italic;
+}
+
+.contact-header {
+    width: 100%;
+    height: 25%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    margin: 0;
+}
+
+.contact-bottom {
+    width: 100%;
+    height: 75%;
+    padding: 28px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#contact-tw {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.contact-bottom img {
+    height: 100%;
+    width: auto;
+}
+
+#contact-tt:hover img, #contact-fb:hover img, #contact-ig:hover img, #contact-tkt:hover img, #contact-gr:hover img {
+    outline: 4px solid white;
+}
+>>>>>>> 94ba513a1d68ad452045dca2fda4b1d94202445b
