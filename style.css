@@ -36,7 +36,7 @@ a {
     height: 50px;
     line-height: 50px;
     padding: 0;
-    font-size: 23pt;
+    font-size: 1.6vw;
 
 }
 
@@ -67,7 +67,7 @@ a {
     height: auto;
     padding: 0.6%;
     text-align: center;
-    background-color: rgb(67, 42, 82);
+    background-color: rgb(50, 32, 61);
     color: white;
 }
 
@@ -130,7 +130,7 @@ a {
     background-color: rgb(200,200,200);
     outline: 3px solid black;
     text-align: center;
-    font-size: 20pt;
+    font-size: 1.4vw;
     word-break: break-all;
     white-space: normal;
 }
@@ -139,13 +139,20 @@ a {
     width: 100%;
     height: 15%;
     line-height: 75px;
-    font-size: 30pt;
+    font-size: 2vw;
     font-weight: 500;
+    border-bottom: 4px solid black;
+    overflow: hidden;
+    font-weight: bolder;
+    background-color: rgb(67, 42, 82);
+    color: white;
 }
 
 .main-bottom-element-t {
     width: 92%;
     height: 82%;
+    margin-top: 7px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     word-break: normal;
@@ -156,6 +163,7 @@ a {
 
 .main-bottom-element:hover .main-bottom-element-h {
     font-weight: bolder;
+    background-color: rgb(50, 32, 61);
 }
 
 #main-header:hover {
@@ -239,14 +247,14 @@ a {
 .video-line{
     width: 100%;
     height: 300px;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(50, 32, 61);
 }
 
 .video-block{
     float: left;
     width: 25%;
     height: 100%;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(67, 42, 82);
 }
 
 .video-block iframe {
@@ -257,25 +265,31 @@ a {
     margin-top: 3%;
 }
 
+.video-block:hover {
+    background-color: rgb(35, 15, 48);
+    border: 1px dashed white;
+}
+
 /* For contact */
 
 .contact-line {
     width: 100%;
     height: 300px;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(50, 32, 61);
 }
 
 .contact-block {
     float: left;
     width: 33.3%;
     height: 100%;
-    background-color: rgb(116, 116, 116);
+    background-color: rgb(67, 42, 82);
     text-align: center;
     color: black;
 }
 
 .contact-block:hover {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(35, 15, 48);
+    border: 1px dashed white;
 }
 
 .contact-block:hover .contact-header {
@@ -287,13 +301,14 @@ a {
     float: left;
     width: 33.3%;
     height: 100%;
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(50, 32, 61);
     text-align: center;
     color: black;
 }
 
 .contact-block2:hover {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(35, 15, 48);
+    border: 1px dashed white;
 }
 
 .contact-block2:hover .contact-header {
@@ -308,7 +323,7 @@ a {
     vertical-align: middle;
     text-align: center;
     font-size: xx-large;
-    color: black;
+    color: white;
     margin: 0;
 }
 
